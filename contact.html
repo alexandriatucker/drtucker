@@ -21,7 +21,15 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/styles.css">
-  <script src='https://www.google.com/recaptcha/api.js'></script>
+  <!--<script src='https://www.google.com/recaptcha/api.js'></script>-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script>
+$('form').submit(function(){    
+        if ($('input#website').val().length != 0) {
+            return false;
+        } 
+});
+</script>
 
 </head>
 
@@ -79,11 +87,12 @@
                   <label class="label-style" for="mail">EMAIL</label><br>
                   <input type="email" id="mail" name="user_mail" class="email-field" />
                   </div>
+                  <input id="website" name="website" type="text" value=""  />
               <div class="message-container">
                   <label class="label-style" for="msg">YOUR MESSAGE</label>
                   <textarea id="msg" name="user_message" class="message"></textarea>
               </div>
-              <div style="text-align: center; padding-bottom: 2%;"><div class="g-recaptcha" data-sitekey="6Lfo2A0UAAAAAHVZJRi5IsVr9Oww_Ip_6Vu1V1DS"></div></div>
+              <!--<div style="text-align: center; padding-bottom: 2%;"><div class="g-recaptcha" data-sitekey="6Lfo2A0UAAAAAHVZJRi5IsVr9Oww_Ip_6Vu1V1DS"></div></div>-->
               <div style="text-align: center; padding-bottom: 5%;">
               <input type="button" class="button" value="SEND"></div>
 
