@@ -1,7 +1,7 @@
 body {
 	background-color: #ffffff;
 	color: #2b2b2b;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 26px;
@@ -69,6 +69,10 @@ a {
 
 .header-copy a:hover {
 	font-weight: 800;
+}
+
+.header-active {
+	font-weight: 800 !important;
 }
 
 .header-copy img {
@@ -297,11 +301,12 @@ a {
 
 .about-content {
 	color: #ffffff;
-	font-family: 'Merriweather', serif;
+	font-family: 'Lato', serif;
+	font-weight: 400;
 	width: 70%;
 	margin: 0 auto;
 	padding: 60px 0;
-	font-size: .9em;
+	font-size: .95em;
 	line-height: 1.8em;
 }
 
@@ -314,22 +319,22 @@ a {
 
 .work-content {
 	color: #666666;
-	font-family: 'Merriweather', serif;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
 	width: 70%;
 	margin: 0 auto;
 	padding: 60px 0;
-	font-size: .9em;
+	font-size: .95em;
 	line-height: 1.8em;
 }
 
 .book-title-copy {
-	font-family: 'Merriweather', serif;
+	font-family: 'Lato', sans-serif;
 	font-style: italic;
 }
 
 .link {
-	font-style: italic;
-	font-weight: 400;
+	font-weight: 700;
 	color: #cbab7b;
 }	
 
@@ -343,11 +348,26 @@ a {
 	font-weight: 700;
 }
 
+.books-content ul {
+	list-style-type: disc;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
+.books-content li {
+	list-style: none;
+	line-height: 1.5em;
+	padding-bottom: 8px;
+}
+
 .book-detail {
 	float: left;
 	width: 21%;
 	margin: 0 0 45px;
-	padding: 0 2%;
+	padding: 1% 2% 0;
 	line-height: 18px;
 }
 
@@ -385,11 +405,12 @@ a {
 
 .contact-content {
 	color: #ffffff;
-	font-family: 'Merriweather', serif;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
 	width: 70%;
 	margin: 0 auto;
-	padding: 60px 0;
-	font-size: .9em;
+	padding: 60px 0 30px;
+	font-size: .95em;
 	line-height: 1.8em;
 }
 
@@ -402,6 +423,71 @@ a {
 	color: #ffffff;
 }
 
+.name-container {
+	font-family: 'Montserrat' sans-serif !important;
+	width: 40%;
+	display: inline-block;
+	font-size: .8em;
+	padding-bottom: 2%;
+	font-weight: 400;
+	letter-spacing: 1.5px;
+}
+
+.name-field {
+	width: 90%;
+	border: none;
+	height: 30px;
+	padding: 5px 10px;
+	box-sizing: border-box;
+}
+
+.email-container {
+	font-family: 'Montserrat' sans-serif !important;
+	width: 50%;
+	display: inline-block;
+	font-size: .8em;
+	padding-bottom: 2%;
+	font-weight: 400;
+	letter-spacing: 1.5px;
+}
+
+.email-field {
+	width: 90%;
+	border: none;
+	height: 30px;
+	padding: 5px 10px;
+	box-sizing: border-box;
+}
+
+.message-container {
+	font-family: 'Montserrat' sans-serif !important;
+	font-size: .8em;
+	padding-bottom: 2%;
+	font-weight: 400;
+	letter-spacing: 1.5px;
+}
+
+.message {
+	width: 100%;
+	border: none;
+	height: 80px;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.button {
+    background-color: #4d6180;
+    border: 2px solid #ffffff;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
 
 /************* CONTACT *************/
 
