@@ -155,15 +155,15 @@ a {
 	transform: translate(-50%, -50%);
 }
 
-/************* SERVICES *************/
+/************* mission *************/
 
-.services-content { /** Services Container **/
+.mission-content { /** mission Container **/
 	display: table-row;
 	width: auto;
 	clear: both;
 }
 
-.services-1 { /** Services Left Container **/
+.mission-1 { /** mission Left Container **/
 	display: table-cell;
 	background-color: #4d4e4e;
 	width: 50%;
@@ -171,7 +171,7 @@ a {
 	vertical-align: middle;
 }
 
-.services-1 h2 { /** Services Left Container Copy **/
+.mission-1 h2 { /** mission Left Container Copy **/
 	color: #ffffff;
 	font-family: 'Merriweather', serif;
 	font-size: 18px;
@@ -181,14 +181,14 @@ a {
 	padding: 0 100px 0 65px;
 }
 
-.services-1-dash { /** Services Dash **/
+.mission-1-dash { /** mission Dash **/
 	background: #cbab7b;
     max-width: 466px;
     padding: 1px 0;
     margin: 10px 0;
 }
 
-.services-2 { /** Services Right List Container **/
+.mission-2 { /** mission Right List Container **/
 	display: table-cell;
 	background-color: #ffffff;
 	width: 50%;
@@ -197,17 +197,17 @@ a {
 	font-family: 'Merriweather', sans-serif;
 }
 
-.services-2-copy { /** Services Right List Container Copy **/
+.mission-2-copy { /** mission Right List Container Copy **/
 	line-height: 20px;
 	padding: 70px 90px;
 }
 
-.services-2-copy ul { /** Services List **/
+.mission-2-copy ul { /** mission List **/
 	list-style-type: none;
 	padding: 0;
 }
 
-.services-2-copy li { /** Services List Content **/
+.mission-2-copy li { /** mission List Content **/
 	padding: 8px 0;
 }
 
@@ -550,14 +550,14 @@ input#website { display: none; }
 
 @media handheld, only screen and (max-width: 900px) {
 
-	.services-1 { /** Services Left Container **/
+	.mission-1 { /** mission Left Container **/
 		display: inline-flex;
 		background-color: #2b2b2b;
 		width: 100%;
 		min-height: 300px;
 	}
 
-	.services-1 h2 { /** Services Left Container Copy **/
+	.mission-1 h2 { /** mission Left Container Copy **/
 		color: #ffffff;
 		font-family: 'Merriweather', serif;
 		font-size: 22px;
@@ -568,12 +568,12 @@ input#website { display: none; }
 		margin: 0 auto;
 	}
 
-	.services-1-dash { /** Services Dash **/
+	.mission-1-dash { /** mission Dash **/
 	    padding: 1px 0;
 	    margin: 20px auto;
 	}
 
-	.services-2 { /** Services Right List Container **/
+	.mission-2 { /** mission Right List Container **/
 		display: inline-block;
 		background-color: #ffffff;
 		text-align: center;
@@ -581,7 +581,7 @@ input#website { display: none; }
 		min-height: 400px;
 	}
 
-	.services-2-copy { /** Services Right List Container Copy **/
+	.mission-2-copy { /** mission Right List Container Copy **/
 		padding: 40px 0;
 	}
 
@@ -670,7 +670,7 @@ input#website { display: none; }
 		background-position: center center;
 	}
 	
-	.services-1 h2 { /** Services Right List Container **/ 
+	.mission-1 h2 { /** mission Right List Container **/ 
 	    font-size: 20px;
 	    line-height: 36px;
 	    text-align: center;
