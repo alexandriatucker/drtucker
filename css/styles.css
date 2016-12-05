@@ -419,6 +419,9 @@ a {
 	padding: 0 15%;
 }
 
+input[type="text"]#website { display: none; }
+input#website { display: none; }
+
 .label-style {
 	color: #ffffff;
 }
